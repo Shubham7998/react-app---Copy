@@ -1,0 +1,30 @@
+.employee-container {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.employee-container h1 {
+  margin-bottom: 20px;
+}
+
+.employee-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.employee-container input[type="number"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.employee-container button {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.employee-container button + button {
+  margin-top: 10px;
+}

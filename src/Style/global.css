@@ -1,0 +1,68 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+    max-width: 600px;
+    min-height: 60vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+   
+  }
+  
+  .Container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .Container input[type="text"],
+  .Container input[type="password"],
+  .Container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .Container input[type="text"],
+  .Container input[type="password"] {
+    font-size: 16px;
+  }
+  
+  .Container button {
+    background-color: #064178;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Container button:hover {
+    background-color: #064178;
+  }
+  
+  .Container p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .Container a {
+    color: #064178;
+    text-decoration: none;
+  }
+  
+  .Container a:hover {
+    text-decoration: underline;
+  }
+  .Container textarea{
+    width: 100%;
+
+  }

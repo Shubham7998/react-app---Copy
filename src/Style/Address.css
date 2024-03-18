@@ -1,0 +1,52 @@
+
+  .container-address {
+    margin-top: 20px;
+  }
+  
+  .container-address h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container-address label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container-address select,
+  .container-address input[type="text"],
+  .container-address textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+  }
+  
+  .container-address textarea {
+    width:97%;
+  }
+  
+ 
+  .container-address button {
+    width: 100%;
+    padding: 10px;
+    background-color: #064178;
+    color: white;
+    background-color: #064178;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .container-address button:hover {
+    background-color: #235a95;
+  }
+  
+  .container-address button:last-child:hover {
+    background-color: #0056b3;
+  }
+  

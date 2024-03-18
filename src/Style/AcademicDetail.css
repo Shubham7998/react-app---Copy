@@ -1,0 +1,33 @@
+.academic-container {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .academic-container h1 {
+    margin-bottom: 20px;
+  }
+  .error-message
+{
+  color: red;
+}
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: calc(100% - 10px);
+    padding: 10px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
